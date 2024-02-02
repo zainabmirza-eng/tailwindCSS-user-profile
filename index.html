@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile Card</title>
+    <!-- Insert TailwindCSS CDN link here -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="container max-w-lg mx-auto grid bg-rose-300 items-center justify-center h-screen">
+    <div class="max-w-md mx-auto w-full bg-white rounded-lg flex flex-col md:flex-row p-6 shadow-md shadow-pink-800/50">
+        <!-- User Image -->
+        <img class="rounded-full w-24 h-24 mx-auto md:w-32 md:h-32 mb-4 md:mb-0 md:mr-4 object-cover" src="./images/3.jpg">
+        
+        <!-- User Information -->
+        <div class="text-center md:text-left">
+            <h2 class="text-xl font-semibold">Zainab Mirza</h2>
+            <p class="text-gray-600">Software Engineer</p>
+            <p class="text-sm text-gray-500 mt-2">Passionate about coding and building awesome things.</p>
+            <button class="rounded-lg bg-rose-700 mt-2 text-white px-6 py-1 font-bold shadow-lg transition 
+            ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-rose-400 duration-300">Follow</button>
+        </div>
+    </div>
+</body>
+</html>
